@@ -7,7 +7,7 @@ const gameOverSign = document.getElementById('gameOver')
 
 // Configuraciones del juego
 const boardSize = 10;
-const gameSpeed = 100;
+const gameSpeed = 120;
 
 const squareTypes = {
   emptySquares: 0,
@@ -63,9 +63,21 @@ const moveSnake = () => {
     gameOver();
 
     }else{
-
+      snake.push(newSquare);
+      if(boardSquares [row][column] === squareTypes.foodSquare) {
+        addFood();
+      }else {
+        const emptySquare = snake.shift();
+        drawsquare(emptySquare, 'emptySquare');
+      }
+      drawSnake();
     }
-  
+}
+
+const addFood = () => {
+  score ++;
+  updateScore();
+  createRandomFood();
 }
 
 const gameOver = () => {

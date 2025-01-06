@@ -4,8 +4,14 @@
   font-family: 'Share Tech Mono', monospace;
 }
 
+body{
+  background-color: #192229;
+  color: #c4eff7;
+}
+
 #board, .boardInfo{
   width: 500px;
+  margin: auto;
 }
 
 #board{
@@ -19,6 +25,8 @@
 
 #gameOver{
   display: none;
+  text-align: center;
+  font-size: 20px;
 }
 
 .boardInfo{
@@ -43,7 +51,7 @@
 }
 
 .emptySquare{
-  background-color: #456990;
+  background-color: #7599ba;
 }
 
 .snakeSquare{
