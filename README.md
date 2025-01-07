@@ -5,7 +5,6 @@ Este proyecto consiste en el clásico juego de Snake, con el fin de ampliar la v
 
 <br>
 
----
 
 ## Características:
 
@@ -21,7 +20,6 @@ Este proyecto consiste en el clásico juego de Snake, con el fin de ampliar la v
 
 <br>
 
----
 
 ## Instrucciones para jugar:
 
@@ -29,7 +27,7 @@ Inicias en la parte superiro izquierda del tablero, puedes controlar a la serpie
 
 <br>
 
----
+
 
 ## Tecnologías:
 
@@ -43,7 +41,6 @@ Para realizar este juego se utilizaron las siguientes tecnologías:
 
 <br>
 
----
 
 ## Como Instalar.
 
